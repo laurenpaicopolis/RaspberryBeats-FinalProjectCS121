@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Raspberry Beats</title>
+	<!--Bootstrap---->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<!-- Bootstrap navigation bar -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	 <ul class="navbar-nav">
+	  <li class="nav-item active">
+	   <a class="nav-link" href="/is_sound">Raspberry Beats</a>
+	  </li>
+	</ul>
+      </nav>
+     <!-- Header for pages ---->
+     <div class="jumbotron text-center" style="margin-bottom:0; background-color:#b2ebf2;">
+	<h1>Raspberry Beats</h1>
+	<p>Interactive Sound Kit</p>
+	<div class="container" role="main">
+			<div class="center-block text-center" style="padding:1em;">
+			<button id="start_button" class="btn btn-primary btn-lg">Start Playing</button>
+     			<button id="playback_button" class="btn btn-success btn-lg">Playback Sounds</button>
+			</div>
+	</div>
+	Cell Phone Number: <input type="text"  id="textmessage" style="height: 38px;">
+        <button  type="button" id="send_text" class="btn btn-light">Send Audio File</button>
+        </form>
+	</div>
+
+
+	<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src="/static/beatsButton.js"></script>
+	<!---<script src="/static/cellphone.php"></script>--->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+      <div class="embed-responsive embed-responsive-16by9">
+	  <iframe class="embed-responsive-item" src="https://iot.app.initialstate.com/embed/#/tiles/bkt_ev5m1k334ty4p"></iframe>	
+      </div>
+
+
+     <div class="jumbotron text-left" style="margin-bottom:0">
+	<p>&copy; {{name}} [CS 121]</p>
+     </div>
+
+
+</body>
+</html>
